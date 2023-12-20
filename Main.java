@@ -16,4 +16,9 @@ public class Main {
         // get the prize toy
         try {
             store.getPrizeToy();
+        } catch (Exception e) {
+            // handle the exception here
+            System.out.println("An exception occurred: " + e.getMessage());
         }
+    }
+}
